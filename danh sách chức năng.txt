@@ -1,0 +1,29 @@
+ĐÃ CÓ
+home
+chi tieets
+thể loại
+
+CHƯA CÓ
+	navbar
++thêm thanh tìm kiếm
+	
+	đăng nhập :
++ user pass
+
+	thông tin ng dùng: dùng nút trên navbar
++ thông tin cơ bản
++ với admin thì có danh sách bài báo
+
+	trang search:
+
+BỔ SUNG 	
+	chi tiết bài báo:
++ comment
++ tin liên quan
+
+
+LOGIN: chỉ còn backend
+
+HOME PAGE:
+	+ Chưa có: 
+ 
