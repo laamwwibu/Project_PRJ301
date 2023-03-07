@@ -19,23 +19,46 @@
 
 <body>
     <div class="container">
-        <div class="row login-body">
+        <div class="row nopadding login-body">
             <div class="col-md-8 nopadding">
                 <div class="login-quote">
                     <h1>VICE is the definitive guide to enlightening information.</h1>
                 </div>
             </div>
             <div class="col-md-4 login-content">
-                <div class="login-content-logo">
-                    <img style="width: 100px;" src="image/branding/vice logo.png" alt="">
+                <input type="checkbox" id="check">
+                <div class="login form">
+                    <header>Login</header>
+                    <form action="#">
+                        <input type="text" placeholder="Enter your email">
+                        <input type="password" placeholder="Enter your password">
+                        <input type="button" class="button" value="Login">
+                    </form>
+                    <div class="signup">
+                        <span class="signup">Don't have an account?
+                            <label for="check">Signup</label>
+                        </span>
+                    </div>
                 </div>
-
-                <form class="login-form" action="">
-                    <input type="text" placeholder="Name" required><br>
-                    <input type="password" placeholder="Password" required><br>
-                    <input class="login-form-button" type="submit" name="signup" value="Sign up">
-                    <input class="login-form-button" type="submit" name="login" value="Log in">
-                </form>
+                <div class="registration form">
+                    <header>Signup</header>
+                    <form action="#">
+                        <input type="text" name="username" placeholder="Username">
+                        <input type="text" name="realname" placeholder="Real name">
+                        <input type="date" name="dob" placeholder="dd/mm/yyy">
+                        <div class="signup-gender">
+                            <label for="gender">Gender</label>
+                            Male<input type="radio" name="gender" value="male" id="gender-male">
+                            Female<input type="radio" name="gender" value="female" id="gender-female">
+                        </div>
+                        <input type="password" name="password" placeholder="Password">
+                    </form>
+                    <div class="signup">
+                        <span class="signup">Already have an account?
+                            <label for="check">Login</label>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
