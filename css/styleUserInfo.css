@@ -1,5 +1,5 @@
-.user-info {
-}
+.user-info {}
+
 .user-info-main {
     display: flex;
     flex-direction: column;
@@ -16,6 +16,7 @@
     width: 150px;
     height: 150px;
 }
+
 .user-info-main-text {
     display: flex;
     flex-direction: column;
@@ -27,12 +28,14 @@
     font-size: 65px;
     font-weight: bold;
 }
+
 .user-info-detail {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-right: 30px;
 }
+
 .user-info-detail-body {
     border: 3px solid black;
     display: flex;
@@ -40,6 +43,13 @@
     justify-content: center;
     padding: 30px;
     font-size: 20px;
+}
+.user-info-detail-body a {
+    color: grey;
+    text-decoration: none;
+}
+.user-info-detail-body p {
+    border-bottom: 0.5px solid black;
 }
 
 .user-info-detail-body span {
