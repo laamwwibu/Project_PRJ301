@@ -20,20 +20,20 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row nopadding">
-            <div class="col-md-6 user-info-main">
-                <div class="user-info-main-image">
-                    <img class="rounded-circle" src="image/user/alan wong.webp" alt="">
+    <form action="">
+        <div class="container">
+            <div class="row nopadding">
+                <div class="col-md-6 user-info-main">
+                    <div class="user-info-main-image">
+                        <img class="rounded-circle" src="image/user/alan wong.webp" alt="">
+                    </div>
+                    <div class="user-info-main-text">
+                        <h1 id="h1-content">Alan Wong</h1>
+                        <h4>alan.wong@vice.com</h4>
+                    </div>
                 </div>
-                <div class="user-info-main-text">
-                    <h1 id="h1-content">Alan Wong</h1>
-                    <h4>alan.wong@vice.com</h4>
-                </div>
-            </div>
-            <div class="col-md-6 user-info-detail">
-                <div class="user-info-detail-body">
-                    <form action="">
+                <div class="col-md-6 user-info-detail">
+                    <div class="user-info-detail-body">
                         <table>
                             <tr>
                                 <td>Id:</td>
@@ -45,7 +45,8 @@
                             </tr>
                             <tr>
                                 <td>Real Name:</td>
-                                <td><input id="input-realname" oninput="changeH1Content()" type="text" value="sampleRealName"></td>
+                                <td><input id="input-realname" oninput="changeH1Content()" type="text"
+                                        value="sampleRealName"></td>
                             </tr>
                             <tr>
                                 <td>Gender:</td>
@@ -64,11 +65,11 @@
                                 </td>
                             </tr>
                         </table>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 
     <script>
         function changeH1Content() {
