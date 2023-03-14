@@ -1,0 +1,8 @@
+.category-list table {
+    border-collapse: separate;
+    border-spacing: 50px 20px;
+}
+.search-nav-search-filter h5 {
+    font-size: 40px;
+    font-weight: bold;
+}
