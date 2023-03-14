@@ -129,25 +129,3 @@ font-size: 20px;
     margin: 0px 10px;
     width: 30px;
 }
-/* .login-content {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.login-content-logo {
-    margin: 20px;
-}
-
-.login-content input {
-    margin: 10px 0px;
-    padding: 10px 10px 5px 10px;
-    border: none;
-    border-bottom: 1px solid rgb(182, 182, 182);
-    width: 70%;
-}
-
-.login-form-button {
-    border: none;
-} */
