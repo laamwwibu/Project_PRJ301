@@ -32,13 +32,16 @@
     padding: 10px 0px;
     color: black;
 }
+
 .author-image {
     width: 50px;
     height: 50px;
 }
+
 .author-name {
     margin-left: 20px;
 }
+
 .author-name span {
     text-decoration: underline;
 }
@@ -47,9 +50,37 @@
 .news-content-image {
     margin-bottom: 30px;
 }
+
 .news-content-image img {
     width: 100%;
 }
+
 .news-content-text {
     font-size: 20px;
 }
+
+/* Comment section */
+.comment-section {
+    margin-bottom: 30px;
+  }
+  
+  .comment-section form {
+    margin-bottom: 30px;
+  }
+  
+  .comments {
+    margin-top: 30px;
+  }
+  
+  .comment {
+    margin-bottom: 30px;
+  }
+  
+  .comment h5 {
+    margin-bottom: 10px;
+  }
+  
+  .comment p {
+    margin-bottom: 0;
+  }
+  
